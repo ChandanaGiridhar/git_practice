@@ -7,3 +7,9 @@ git init
 echo "# My Project" > README.md
 git add README.md
 git commit -m "Initial commit"
+
+git remote add origin https://github.com/username/my-project.git
+git push -u origin main
+
+git clone https://github.com/username/sample-repo.git
+cd sample-repo
