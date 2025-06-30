@@ -57,3 +57,9 @@ git merge origin/main     # Merge if desired
 
 git pull - Changes are fetched and merged immediately, which might resolve conflicts on the spot.
 git pull origin main
+
+stash changes - Make uncommitted changes in the “Working Copy.” and stash them to commit them later 
+git stash
+git stash apply
+git stash pop
+
