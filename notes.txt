@@ -43,3 +43,5 @@ git checkout feature-2
 git rebase main
 # Resolve conflicts if prompted, then:
 git rebase --continue
+
+checking now to see the commit changes --IGNORE THIS LINE
