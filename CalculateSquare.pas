@@ -12,4 +12,4 @@ begin                    // Starts the main program block
   square := number * number;  // Calculates the square of the input number
   writeln('The square of ', number, ' is ', square);  // Displays the result
   readln;                // Waits for user to press Enter before closing
-end.                     // Ends the main program block
+              // Ends the main program block
