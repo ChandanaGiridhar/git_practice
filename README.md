@@ -1,1 +1,1 @@
-This is for understanding and learning only. Please view other repositories. 
+This is for undertanding and learning only. Please view other repositories. 
