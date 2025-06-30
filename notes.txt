@@ -30,3 +30,4 @@ git merge feature-1
 git add README.md
 git commit
 
+git log --graph --oneline --all
