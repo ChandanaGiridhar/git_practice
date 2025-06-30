@@ -38,3 +38,8 @@ git rebase main
 # Resolve conflicts if prompted, then:
 git rebase --continue
 
+undo changes 
+git checkout feature-2
+git rebase main
+# Resolve conflicts if prompted, then:
+git rebase --continue
