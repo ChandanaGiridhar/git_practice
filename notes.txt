@@ -49,3 +49,11 @@ git commit --amend
 git revert <commit-hash>
 git reset --soft <commit-hash>
 git reset --hard <commit-hash>
+
+git fetch - You control when and how to integrate changes.
+git fetch origin
+git log HEAD..origin/main  # View changes
+git merge origin/main     # Merge if desired
+
+git pull - Changes are fetched and merged immediately, which might resolve conflicts on the spot.
+git pull origin main
