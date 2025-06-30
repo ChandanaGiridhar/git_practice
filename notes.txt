@@ -38,11 +38,14 @@ git rebase main
 # Resolve conflicts if prompted, then:
 git rebase --continue
 
-undo changes 
+rebase
 git checkout feature-2
 git rebase main
 # Resolve conflicts if prompted, then:
 git rebase --continue
 
-checking now to see the commit changes --IGNORE THIS LINE
-EXEC
+Undo Changes 
+git commit --amend
+git revert <commit-hash>
+git reset --soft <commit-hash>
+git reset --hard <commit-hash>
