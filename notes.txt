@@ -13,3 +13,13 @@ git push -u origin main
 
 git clone https://github.com/username/sample-repo.git
 cd sample-repo
+
+//ADDING NEW FEATURE BRANCH 
+
+git checkout -b feature-1
+echo "Feature update" >> README.md
+git add README.md
+git commit -m "Add feature update"
+
+git checkout main
+git merge feature-1 --no-ff
