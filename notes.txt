@@ -31,3 +31,10 @@ git add README.md
 git commit
 
 git log --graph --oneline --all
+
+//keeping feature branch uptodate
+git checkout feature-2
+git rebase main
+# Resolve conflicts if prompted, then:
+git rebase --continue
+
